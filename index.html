@@ -1,22 +1,71 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>College Library</title>
+    <title>VIT Chennai</title>
+    <style>
+        body {
+            background-color: #A9BA9D;
+        }
+
+        header, nav, main, footer {
+            background-color: #D0D9CD; 
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <ul>
-            <img src="logo.png" alt="college logo">
-            <div id="navbar">
-                <li><a href="#">Library</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </div>
-            
-        </ul>
+        <h1>VIT Chennai</h1>
     </header>
+
+    <nav>
+        <button onclick="location.href='#home'">Home</button>
+        <button onclick="location.href='#about'">About</button>
+        
+        <button onclick="location.href='#admissions'">Admissions</button>
+        <button onclick="location.href='#contact'">Contact</button>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to VIT Chennai</h2>
+            <p> VITEEE will be conducted between 19 and 30 April 2024 (Tentative) at
+designated centres across India and abroad (No.of days will vary for test cities).  </p>
+        </section>
+        <section id="about">
+            <h2>About VIT Chennai</h2>
+            <p>VIT Chennai, one of the leading engineering colleges in India, offers the best exposure in terms of world class education, internship opportunities, top-notch placement opportunities, and infrastructural amenities. We ensure that the graduates walk out with many skills and learning. We provide a domain for polishing technical mastery and interpretive and analytical skills, which is the need of the hour. VIT Chennai, fosters principles and ensures to achieve the mission and vision to enrich the learning process for the future leaders of our society.
+VIT was established in 1984 as a self-financing institution called the Vellore Engineering College under Section 3.</p>
+        </section>
+		<div class="dropdown">
+            <button class="dropbtn">Courses</button>
+            <div class="dropdown-content">
+                <a href="#">Btech</a>
+                <a href="#">BCA</a>
+                <a href="#">BBA+LAW</a>
+            </div>
+        </div>
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>Vellore Institute of Technology Engineering Entrance Examination (VITEEE) is conducted for admission to undergraduate
+engineering programmes in VIT group of Institutions. VITEEE will be conducted between 19 and 30 April 2024 (Tentative) at
+designated centres across India and abroad (No.of days will vary for test cities). The duration of the examination will be 2 hours and
+30 minutes. Candidates can appear only once for VITEEE admin.chennai@vit.ac.in
+ +91 44 3993 1555
+ Vellore Institute of Technology, Vandalur – Kelambakkam Road Chennai, Tamil Nadu – 600 127 </p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p> admin.chennai@vit.ac.in
+					+91 44 3993 1555
+						Vellore Institute of Technology, Vandalur – Kelambakkam Road Chennai, Tamil Nadu – 600 127</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 VIT Chennai. All rights reserved.
+    </footer>
 </body>
+
 </html>
